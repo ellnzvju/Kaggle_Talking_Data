@@ -1,0 +1,8 @@
+{"train_output": "Output/stacking_train_10fold/",
+  "test_output": "Output/stacking_test_10fold/",
+  "features": {"test": [["WorkSpace/sprm_test_v2.npz", "sparse"], ["WorkSpace/r_test.npy", "numpy"]],
+    "train": [["WorkSpace/sprm_train_v2.npz", "sparse"], ["WorkSpace/r_train.npy", "numpy"]]},
+    "models": ["nn_relu", "xgb_high_col", "nn_leaky_2layers_units_alpha_adjusted"],
+    "seed": 777,
+    "n_folds": 2,
+    "n_class": 12}
