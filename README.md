@@ -7,7 +7,7 @@
 **Scoring: Multiclasses logloss**
 
 The framework is based on 3 levels learning architecture, with stacking technique
--  1st level, consist of 4 models  and 4 models, the result from out of fold training in first level will be use for training in second level.
+-  1st level, consist of 4 models, the results are created from out of fold training and will be use for training in second level.
 -  2nd level models, consist of XGBoost(gbtree) and NN(relu,relu,softmax) with 10 times bagging.
 -  3rd level ensemble (weighted arimethic mean)
 
